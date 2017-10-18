@@ -1,0 +1,550 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "a55e35c5f2c08a6548d423edfa3d6d3bc65cbdc7"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "ClassLibrary1/1.0.0": {
+        "dependencies": {
+          "Microsoft.Azure.Devices.Client": "1.5.1"
+        },
+        "runtime": {
+          "ClassLibrary1.dll": {}
+        }
+      },
+      "DotNetty.Buffers/0.4.6": {
+        "dependencies": {
+          "DotNetty.Common": "0.4.6",
+          "System.Diagnostics.Contracts": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/DotNetty.Buffers.dll": {}
+        }
+      },
+      "DotNetty.Codecs/0.4.6": {
+        "dependencies": {
+          "DotNetty.Buffers": "0.4.6",
+          "DotNetty.Common": "0.4.6",
+          "DotNetty.Transport": "0.4.6",
+          "System.Diagnostics.Contracts": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/DotNetty.Codecs.dll": {}
+        }
+      },
+      "DotNetty.Codecs.Mqtt/0.4.6": {
+        "dependencies": {
+          "DotNetty.Buffers": "0.4.6",
+          "DotNetty.Codecs": "0.4.6",
+          "DotNetty.Common": "0.4.6",
+          "DotNetty.Transport": "0.4.6",
+          "System.Diagnostics.Contracts": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/DotNetty.Codecs.Mqtt.dll": {}
+        }
+      },
+      "DotNetty.Common/0.4.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "1.1.1",
+          "System.Diagnostics.Contracts": "4.3.0",
+          "System.Net.NetworkInformation": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/DotNetty.Common.dll": {}
+        }
+      },
+      "DotNetty.Handlers/0.4.6": {
+        "dependencies": {
+          "DotNetty.Buffers": "0.4.6",
+          "DotNetty.Codecs": "0.4.6",
+          "DotNetty.Common": "0.4.6",
+          "DotNetty.Transport": "0.4.6",
+          "System.Diagnostics.Contracts": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/DotNetty.Handlers.dll": {}
+        }
+      },
+      "DotNetty.Transport/0.4.6": {
+        "dependencies": {
+          "DotNetty.Buffers": "0.4.6",
+          "DotNetty.Common": "0.4.6",
+          "System.Diagnostics.Contracts": "4.3.0",
+          "System.Diagnostics.StackTrace": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/DotNetty.Transport.dll": {}
+        }
+      },
+      "Microsoft.Azure.Amqp/2.0.6": {
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Azure.Amqp.dll": {}
+        }
+      },
+      "Microsoft.Azure.Devices.Client/1.5.1": {
+        "dependencies": {
+          "DotNetty.Codecs.Mqtt": "0.4.6",
+          "DotNetty.Handlers": "0.4.6",
+          "Microsoft.Azure.Amqp": "2.0.6",
+          "Microsoft.Azure.Devices.Shared": "1.1.0",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Collections.Specialized": "4.3.0",
+          "System.Diagnostics.TraceSource": "4.3.0",
+          "System.Net.WebSockets.Client": "4.3.0",
+          "System.Runtime.Serialization.Formatters": "4.3.0",
+          "Validation": "2.4.13",
+          "WindowsAzure.Storage": "8.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Azure.Devices.Client.dll": {}
+        }
+      },
+      "Microsoft.Azure.Devices.Shared/1.1.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Azure.Devices.Shared.dll": {}
+        }
+      },
+      "Microsoft.Data.Edm/5.8.2": {
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Data.Edm.dll": {}
+        },
+        "resources": {
+          "lib/netstandard1.1/de/Microsoft.Data.Edm.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard1.1/es/Microsoft.Data.Edm.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard1.1/fr/Microsoft.Data.Edm.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard1.1/it/Microsoft.Data.Edm.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard1.1/ja/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard1.1/ko/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard1.1/ru/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard1.1/zh-Hans/Microsoft.Data.Edm.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard1.1/zh-Hant/Microsoft.Data.Edm.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Data.OData/5.8.2": {
+        "dependencies": {
+          "Microsoft.Data.Edm": "5.8.2",
+          "System.Spatial": "5.8.2"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Data.OData.dll": {}
+        },
+        "resources": {
+          "lib/netstandard1.1/de/Microsoft.Data.OData.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard1.1/es/Microsoft.Data.OData.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard1.1/fr/Microsoft.Data.OData.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard1.1/it/Microsoft.Data.OData.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard1.1/ja/Microsoft.Data.OData.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard1.1/ko/Microsoft.Data.OData.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard1.1/ru/Microsoft.Data.OData.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard1.1/zh-Hans/Microsoft.Data.OData.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard1.1/zh-Hant/Microsoft.Data.OData.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/1.1.0": {
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging/1.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "1.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Extensions.Logging.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/1.1.1": {
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Collections.NonGeneric/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
+        }
+      },
+      "System.Collections.Specialized/4.3.0": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.Specialized.dll": {}
+        }
+      },
+      "System.Diagnostics.Contracts/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.0/System.Diagnostics.Contracts.dll": {}
+        }
+      },
+      "System.Diagnostics.StackTrace/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Diagnostics.StackTrace.dll": {}
+        }
+      },
+      "System.Diagnostics.TraceSource/4.3.0": {
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Net.NetworkInformation/4.3.0": {
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard1.3/System.Net.NetworkInformation.dll": {
+            "rid": "linux",
+            "assetType": "runtime"
+          },
+          "runtimes/osx/lib/netstandard1.3/System.Net.NetworkInformation.dll": {
+            "rid": "osx",
+            "assetType": "runtime"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Net.NetworkInformation.dll": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Net.WebSockets/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Net.WebSockets.dll": {}
+        }
+      },
+      "System.Net.WebSockets.Client/4.3.0": {
+        "dependencies": {
+          "System.Net.WebSockets": "4.3.0"
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Net.WebSockets.Client.dll": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Net.WebSockets.Client.dll": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Runtime.Serialization.Formatters/4.3.0": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.4/System.Runtime.Serialization.Formatters.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "System.Spatial/5.8.2": {
+        "runtime": {
+          "lib/netstandard1.1/System.Spatial.dll": {}
+        },
+        "resources": {
+          "lib/netstandard1.1/de/System.Spatial.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard1.1/es/System.Spatial.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard1.1/fr/System.Spatial.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard1.1/it/System.Spatial.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard1.1/ja/System.Spatial.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard1.1/ko/System.Spatial.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard1.1/ru/System.Spatial.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard1.1/zh-Hans/System.Spatial.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard1.1/zh-Hant/System.Spatial.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Validation/2.4.13": {
+        "runtime": {
+          "lib/netstandard1.3/Validation.dll": {}
+        }
+      },
+      "WindowsAzure.Storage/8.1.1": {
+        "dependencies": {
+          "Microsoft.Data.OData": "5.8.2",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Spatial": "5.8.2"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClassLibrary1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNetty.Buffers/0.4.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GDHnG1IRS3EQsBGvPdUo160QT83DCWLWFR/VNy9DPeZhqiGifTv4ZmuY8tHhsdg/MkDj4rCrMfc9q522T5bLew==",
+      "path": "dotnetty.buffers/0.4.6",
+      "hashPath": "dotnetty.buffers.0.4.6.nupkg.sha512"
+    },
+    "DotNetty.Codecs/0.4.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z4Ac4PVf7Ei1YaYuy2B5GaIJL3qp/sFe1DkPJrR7rTGkDPef9/Xwxb8Cstoot1WoIPYctwTtRca+KkhgpbzMDw==",
+      "path": "dotnetty.codecs/0.4.6",
+      "hashPath": "dotnetty.codecs.0.4.6.nupkg.sha512"
+    },
+    "DotNetty.Codecs.Mqtt/0.4.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t0D0xkuB+ub9iB4cnYj1Fr9u3q9iG4D1A33Gmj6UVd8T8d1M/j6wPdqTgh2xDrHqaKHAfQqYlDV6woRe9uAAEg==",
+      "path": "dotnetty.codecs.mqtt/0.4.6",
+      "hashPath": "dotnetty.codecs.mqtt.0.4.6.nupkg.sha512"
+    },
+    "DotNetty.Common/0.4.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OMjr/3aZTuRxCkabDcFXoubQ3f8RIrh6gm/L1qORgttPkYyo49wRG+jx88YYevPlrqu1tHj4Yo43Zr7sUspsjQ==",
+      "path": "dotnetty.common/0.4.6",
+      "hashPath": "dotnetty.common.0.4.6.nupkg.sha512"
+    },
+    "DotNetty.Handlers/0.4.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NXviHztem/DDzHEV7dLsWhYTjjTIDWgy4eW2A7wd6m2HgZG4xohTM17impRvDCVUsBCTmUM/6E44Ke8EHD4MqA==",
+      "path": "dotnetty.handlers/0.4.6",
+      "hashPath": "dotnetty.handlers.0.4.6.nupkg.sha512"
+    },
+    "DotNetty.Transport/0.4.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gp6Zsxw065yxJKiP0tZ8rblR7wfJms27ALRmf2XO3dCwDheV3ZdP08MPyu+4wkuOD6n0BNJzmxJq50u8XOhasA==",
+      "path": "dotnetty.transport/0.4.6",
+      "hashPath": "dotnetty.transport.0.4.6.nupkg.sha512"
+    },
+    "Microsoft.Azure.Amqp/2.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2yoFmhmz87WL9tsCJ0RF/FZZIPxdtGPxCUJ9ERkQyyhWlHUKC4xWQSwDcy9jFpR3Ac+kSFpateIa1eUa0rfAVw==",
+      "path": "microsoft.azure.amqp/2.0.6",
+      "hashPath": "microsoft.azure.amqp.2.0.6.nupkg.sha512"
+    },
+    "Microsoft.Azure.Devices.Client/1.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Omyo7EQoKnzYAfvMJtTtxBYQnTo0MfIBDyPuvYtFq+QXf9fSm71CfxF/4I5k7aAyyR1MM5W/D0qTSlo5wdwNow==",
+      "path": "microsoft.azure.devices.client/1.5.1",
+      "hashPath": "microsoft.azure.devices.client.1.5.1.nupkg.sha512"
+    },
+    "Microsoft.Azure.Devices.Shared/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2cQLEFOZiFplgYE1ZZp/BB0aRYRAi3crpy8vOwpev1uuCHmr6GYcZuzccwbrki1LZIlu5TkLXReviwSflOjIUw==",
+      "path": "microsoft.azure.devices.shared/1.1.0",
+      "hashPath": "microsoft.azure.devices.shared.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Data.Edm/5.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P/d8DxA6MFHroBEn/jW0LMQSIKnsRRibrZtRCLfov2boQfrQ1R1BVgkJ5oIhcQsOm0l4POv+I2ny6RBsclNbOw==",
+      "path": "microsoft.data.edm/5.8.2",
+      "hashPath": "microsoft.data.edm.5.8.2.nupkg.sha512"
+    },
+    "Microsoft.Data.OData/5.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oEIUtXcRiKogF0yZxA+QdgxoBJ34989qL/5xOSrTfxAhzNJV5Hw6DRdWgUCpeXFMoJUQx7ptbHCN+My/LCQfsg==",
+      "path": "microsoft.data.odata/5.8.2",
+      "hashPath": "microsoft.data.odata.5.8.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2luhjVaWZd8Wmr2KUJcLNAN+iZgezTyfamLG6Lo5FVYY1LYaS7UFOmNtApHGVIytWWtuXSk4ea0t2Vx0HgF5fg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/1.1.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cxLG416uOEFmnv7w4/rsVKD4dRYFuUY+G5WXpLVLMNIL6VYcQkDe67cx2IWBrtUieA08w9eCuxrd2pxIrJ7Wtg==",
+      "path": "microsoft.extensions.logging/1.1.1",
+      "hashPath": "microsoft.extensions.logging.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MMWQNrwQKrSigIaGpPWIK9ZZCNd9aaCHaLgwfPiJNdOfU3UE+RA093YZ7B879MdZ1qSFPcS1QLLNjD+dxXX7Aw==",
+      "path": "microsoft.extensions.logging.abstractions/1.1.1",
+      "hashPath": "microsoft.extensions.logging.abstractions.1.1.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "path": "newtonsoft.json/9.0.1",
+      "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
+    },
+    "System.Collections.NonGeneric/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
+      "path": "system.collections.nongeneric/4.3.0",
+      "hashPath": "system.collections.nongeneric.4.3.0.nupkg.sha512"
+    },
+    "System.Collections.Specialized/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
+      "path": "system.collections.specialized/4.3.0",
+      "hashPath": "system.collections.specialized.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.Contracts/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eelRRbnm+OloiQvp9CXS0ixjNQldjjkHO4iIkR5XH2VIP8sUB/SIpa1TdUW6/+HDcQ+MlhP3pNa1u5SbzYuWGA==",
+      "path": "system.diagnostics.contracts/4.3.0",
+      "hashPath": "system.diagnostics.contracts.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.StackTrace/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BiHg0vgtd35/DM9jvtaC1eKRpWZxr0gcQd643ABG7GnvSlf5pOkY2uyd42mMOJoOmKvnpNj0F4tuoS1pacTwYw==",
+      "path": "system.diagnostics.stacktrace/4.3.0",
+      "hashPath": "system.diagnostics.stacktrace.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.TraceSource/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VnYp1NxGx8Ww731y2LJ1vpfb/DKVNKEZ8Jsh5SgQTZREL/YpWRArgh9pI8CDLmgHspZmLL697CaLvH85qQpRiw==",
+      "path": "system.diagnostics.tracesource/4.3.0",
+      "hashPath": "system.diagnostics.tracesource.4.3.0.nupkg.sha512"
+    },
+    "System.Net.NetworkInformation/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zNVmWVry0pAu7lcrRBhwwU96WUdbsrGL3azyzsbXmVNptae1+Za+UgOe9Z6s8iaWhPn7/l4wQqhC56HZWq7tkg==",
+      "path": "system.net.networkinformation/4.3.0",
+      "hashPath": "system.net.networkinformation.4.3.0.nupkg.sha512"
+    },
+    "System.Net.WebSockets/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u6fFNY5q4T8KerUAVbya7bR6b7muBuSTAersyrihkcmE5QhEOiH3t5rh4il15SexbVlpXFHGuMwr/m8fDrnkQg==",
+      "path": "system.net.websockets/4.3.0",
+      "hashPath": "system.net.websockets.4.3.0.nupkg.sha512"
+    },
+    "System.Net.WebSockets.Client/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QjcP33TONz6wS5+3B4JKHXxQp9b5sexHH/eGTBwG2ZhlaThGvZGm3mMEHyJB6rrLsSah3h1Gc/OkJ162iavkjA==",
+      "path": "system.net.websockets.client/4.3.0",
+      "hashPath": "system.net.websockets.client.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Serialization.Formatters/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KT591AkTNFOTbhZlaeMVvfax3RqhH1EJlcwF50Wm7sfnBLuHiOeZRRKrr1ns3NESkM20KPZ5Ol/ueMq5vg4QoQ==",
+      "path": "system.runtime.serialization.formatters/4.3.0",
+      "hashPath": "system.runtime.serialization.formatters.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Serialization.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+      "path": "system.runtime.serialization.primitives/4.3.0",
+      "hashPath": "system.runtime.serialization.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Spatial/5.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0RfZZJ8RlrfjoBPAF6pczX4Nd2kyLM8EX1PCP5Rqs/jOhJBUPYhpXjIsVAYN7kocj9IJ9XoJWAxWgXIDtJY2Ag==",
+      "path": "system.spatial/5.8.2",
+      "hashPath": "system.spatial.5.8.2.nupkg.sha512"
+    },
+    "Validation/2.4.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LPZkvnd6vULxT9KlOWPc56W/e4+9lL1cmW5YD/CJOAMRCu9jGLOfJrCwvtQJDbo6RMK+MqJ8+kBu3hi9A3tr2w==",
+      "path": "validation/2.4.13",
+      "hashPath": "validation.2.4.13.nupkg.sha512"
+    },
+    "WindowsAzure.Storage/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wzGCikAHcxXayzbxrXrbq/eRqxHAV3pT0McJO8SWHEuM4dJRIbg20LDGW4LTs43WPtLbods6+Tp+ECa10DeVJQ==",
+      "path": "windowsazure.storage/8.1.1",
+      "hashPath": "windowsazure.storage.8.1.1.nupkg.sha512"
+    }
+  }
+}

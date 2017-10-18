@@ -1,0 +1,9 @@
+c:\Users\ryjoh\Source\Repos\App1\SharedLibrary\bin\Debug\netstandard2.0\SharedLibrary.deps.json
+c:\Users\ryjoh\Source\Repos\App1\SharedLibrary\bin\Debug\netstandard2.0\SharedLibrary.dll
+c:\Users\ryjoh\Source\Repos\App1\SharedLibrary\obj\Debug\netstandard2.0\SharedLibrary.csprojResolveAssemblyReference.cache
+c:\Users\ryjoh\Source\Repos\App1\SharedLibrary\obj\Debug\netstandard2.0\SharedLibrary.csproj.CoreCompileInputs.cache
+c:\Users\ryjoh\Source\Repos\App1\SharedLibrary\obj\Debug\netstandard2.0\SharedLibrary.AssemblyInfoInputs.cache
+c:\Users\ryjoh\Source\Repos\App1\SharedLibrary\obj\Debug\netstandard2.0\SharedLibrary.AssemblyInfo.cs
+c:\Users\ryjoh\Source\Repos\App1\SharedLibrary\bin\Debug\netstandard2.0\SharedLibrary.pdb
+c:\Users\ryjoh\Source\Repos\App1\SharedLibrary\obj\Debug\netstandard2.0\SharedLibrary.dll
+c:\Users\ryjoh\Source\Repos\App1\SharedLibrary\obj\Debug\netstandard2.0\SharedLibrary.pdb
